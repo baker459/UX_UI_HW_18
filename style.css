@@ -1,0 +1,171 @@
+body {
+    font-family: rubik, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #5065A8;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  nav img {
+    height: 10rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  img {
+    max-width: 100%
+    height: auto;
+  }
+
+  main {
+    background-color: #F2EEE4;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+  
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+  padding: 16px;
+  margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+}
+  
+  section {
+    background-color: #F2EEE4;
+    margin-bottom: 40px;
+    display: flex; 
+flex-direction: column;
+align-items: center; 
+  }
+  
+  section h2 {
+    background-color: #F2EEE4;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .portfolio-item {
+    background-color: #F2EEE4;
+    margin-bottom: 40px;
+    display: flex; 
+flex-direction: column; 
+align-items: center; 
+  }
+  
+  .portfolio-item img {
+    background-color: #F2EEE4;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-item h3 {
+    background-color: #F2EEE4;
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .portfolio-item p {
+    background-color: #F2EEE4;
+    font-size: 18px;
+    line-height: 1.5;
+  
+  }
+
+  .skill-item {   
+    background-color: #F2EEE4;
+    font-size: 18px;
+    line-height: 1.5;
+
+  }
+  
+  label, input, textarea, button {
+    display: block;
+  
+  }
+
+  button {
+    background-color: #4CAF50;
+    border: none; 
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  #skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    /* Code inside these brackets will only apply to screens with a max width of 600px or less */
+    .flex-container {
+    flex-direction: column;
+    }
+    .flex-item {
+    width: 100%;
+    }
+    .grid-container {
+    grid-template-areas:
+    "header"
+    "main"
+    "sidebar"
+    "footer";
+    grid-template-rows: auto 1fr auto auto;
+    grid-template-columns: 1fr;
+    }
+    }
+    
+    
