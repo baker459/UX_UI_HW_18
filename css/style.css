@@ -44,7 +44,7 @@ body {
   
   img {
     max-width: 100%
-    height: auto;
+    height; auto;
   }
 
   main {
@@ -68,7 +68,7 @@ align-items: center;
     text-align: center;
   }
   
-}
+
   
   section {
     background-color: #F2EEE4;
